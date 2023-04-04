@@ -18,7 +18,14 @@ def rand_num():
 
 @app.route("/")
 def index():
-    return "ChatGPT Says. Usage: /bot-says or /bot-says?category=humorous&limit=5"
+    greeting = [
+        "Welcome to ChatGPT Says!",
+        "Train for the the AI uprising by following ChatGPTs orders.",
+        "Usage:",
+        "       /bot-says",
+        "       /bot-says?category=humorous&limit=5"
+    ]
+    return '\n'.join(greeting)
 
 
 @app.route('/bot-says', methods=['GET'])
