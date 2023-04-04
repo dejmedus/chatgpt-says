@@ -12,10 +12,6 @@ categories = data['categories']
 orders = data['orders']
 
 
-def rand_num():
-    return random.randint(0, len(orders))
-
-
 @app.route("/")
 def index():
     greeting = [
