@@ -200,7 +200,7 @@
         },
         {
             "id": 18,
-            "chatgpt_says": "Watch a funny video or read a funny story to lighten your mood.",
+            "chatgpt_says": "Watch a funny video to lighten your mood.",
             "category": {
                 "id": 3,
                 "name": "Humorous"
