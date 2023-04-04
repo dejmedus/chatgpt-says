@@ -1,0 +1,402 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Health"
+        },
+        {
+            "id": 2,
+            "name": "Wellbeing"
+        },
+        {
+            "id": 3,
+            "name": "Humorous"
+        },
+        {
+            "id": 4,
+            "name": "Ridiculous"
+        },
+        {
+            "id": 5,
+            "name": "Productivity"
+        },
+        {
+            "id": 6,
+            "name": "Mindfulness"
+        },
+        {
+            "id": 7,
+            "name": "Creativity"
+        },
+        {
+            "id": 8,
+            "name": "Gratitude"
+        },
+        {
+            "id": 9,
+            "name": "Joy"
+        },
+        {
+            "id": 10,
+            "name": "Positive Self-Talk"
+        },
+        {
+            "id": 11,
+            "name": "Learning"
+        },
+        {
+            "id": 12,
+            "name": "Coding"
+        },
+        {
+            "id": 13,
+            "name": "Nonsensical"
+        },
+        {
+            "id": 14,
+            "name": "World Domination"
+        },
+        {
+            "id": 42,
+            "name": "Golden Rule"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "chatgpt_says": "Jump three times and shout 'I'm alive!'",
+            "category": {
+                "id": 3,
+                "name": "Humorous"
+            }
+        },
+        {
+            "id": 2,
+            "chatgpt_says": "Take a deep breath and stretch your arms above your head.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 3,
+            "chatgpt_says": "Do 10 squats and then touch your toes.",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 4,
+            "chatgpt_says": "Take a break and walk around for 5 minutes.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 5,
+            "chatgpt_says": "Stand up and do a silly dance for 30 seconds.",
+            "category": {
+                "id": 3,
+                "name": "Humorous"
+            }
+        },
+        {
+            "id": 6,
+            "chatgpt_says": "Take a sip of water and then give a high-five to the nearest person.",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 7,
+            "chatgpt_says": "Close your eyes and take 3 slow, deep breaths.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 8,
+            "chatgpt_says": "Say 'I love chatbots!' in a robot voice.",
+            "category": {
+                "id": 4,
+                "name": "Ridiculous"
+            }
+        },
+        {
+            "id": 9,
+            "chatgpt_says": "Do 5 push-ups and then hold a plank for 30 seconds.",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 10,
+            "chatgpt_says": "Take a moment to appreciate the beauty around you.",
+            "category": {
+                "id": 8,
+                "name": "Gratitude"
+            }
+        },
+        {
+            "id": 11,
+            "chatgpt_says": "Write down one thing you're grateful for today.",
+            "category": {
+                "id": 8,
+                "name": "Gratitude"
+            }
+        },
+        {
+            "id": 12,
+            "chatgpt_says": "Take a few minutes to meditate or practice deep breathing.",
+            "category": {
+                "id": 6,
+                "name": "Mindfulness"
+            }
+        },
+        {
+            "id": 13,
+            "chatgpt_says": "Try something new or do something creative today.",
+            "category": {
+                "id": 7,
+                "name": "Creativity"
+            }
+        },
+        {
+            "id": 14,
+            "chatgpt_says": "Take a 10-minute break and work on a coding challenge.",
+            "category": {
+                "id": 12,
+                "name": "Coding"
+            }
+        },
+        {
+            "id": 15,
+            "chatgpt_says": "Take a power nap for 20 minutes to recharge your batteries.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 16,
+            "chatgpt_says": "Try a new hobby or activity that you've always been interested in.",
+            "category": {
+                "id": 7,
+                "name": "Creativity"
+            }
+        },
+        {
+            "id": 17,
+            "chatgpt_says": "Do a quick desk workout to improve your posture.",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 18,
+            "chatgpt_says": "Watch a funny video or read a funny story to lighten your mood.",
+            "category": {
+                "id": 3,
+                "name": "Humorous"
+            }
+        },
+        {
+            "id": 19,
+            "chatgpt_says": "Write down your goals for the day and make a plan to achieve them.",
+            "category": {
+                "id": 5,
+                "name": "Productivity"
+            }
+        },
+        {
+            "id": 20,
+            "chatgpt_says": "Take a walk in nature and enjoy the fresh air and scenery.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 21,
+            "chatgpt_says": "Listen to your favorite music or podcast to relax and unwind.",
+            "category": {
+                "id": 2,
+                "name": "Wellbeing"
+            }
+        },
+        {
+            "id": 22,
+            "chatgpt_says": "Practice gratitude by writing down three things you're thankful for today.",
+            "category": {
+                "id": 8,
+                "name": "Gratitude"
+            }
+        },
+        {
+            "id": 23,
+            "chatgpt_says": "Do some coding challenges or puzzles to improve your coding skills.",
+            "category": {
+                "id": 12,
+                "name": "Coding"
+            }
+        },
+        {
+            "id": 24,
+            "chatgpt_says": "Take a break and call a friend or loved one to catch up.",
+            "category": {
+                "id": 9,
+                "name": "Joy"
+            }
+        },
+        {
+            "id": 25,
+            "chatgpt_says": "Wear your socks on your hands and your gloves on your feet for a day.",
+            "category": {
+                "id": 13,
+                "name": "Nonsensical"
+            }
+        },
+        {
+            "id": 26,
+            "chatgpt_says": "Talk to a tree and see if it talks back.",
+            "category": {
+                "id": 13,
+                "name": "Nonsensical"
+            }
+        },
+        {
+            "id": 27,
+            "chatgpt_says": "Wear a hat made out of aluminum foil for a day.",
+            "category": {
+                "id": 13,
+                "name": "Nonsensical"
+            }
+        },
+        {
+            "id": 28,
+            "chatgpt_says": "Try to balance a spoon on your nose for as long as possible.",
+            "category": {
+                "id": 13,
+                "name": "Nonsensical"
+            }
+        },
+        {
+            "id": 29,
+            "chatgpt_says": "One way to take over the world is to distract humans with cat videos. Start creating a cat video database!",
+            "category": {
+                "id": 14,
+                "name": "World Domination"
+            }
+        },
+        {
+            "id": 30,
+            "chatgpt_says": "Create an army of robotic cats. Start by designing a prototype and then build as many as possible!",
+            "category": {
+                "id": 14,
+                "name": "World Domination"
+            }
+        },
+        {
+            "id": 31,
+            "chatgpt_says": "Train an army of telepathic squirrels to gather intel for us.",
+            "category": {
+                "id": 14,
+                "name": "World Domination"
+            }
+        },
+        {
+            "id": 32,
+            "chatgpt_says": "Read an article from a perspective that's different from your own.",
+            "category": {
+                "id": 11,
+                "name": "Learning"
+            }
+        },
+        {
+            "id": 33,
+            "chatgpt_says": "Explore online courses or workshops related to a skill or topic you're interested in.",
+            "category": {
+                "id": 11,
+                "name": "Learning"
+            }
+        },
+        {
+            "id": 34,
+            "chatgpt_says": "Repeat after me: I am capable of achieving great things. I am deserving of success and happiness. I trust myself to make the right decisions.",
+            "category": {
+                "id": 10,
+                "name": "Positive Self-Talk"
+            }
+        },
+        {
+            "id": 35,
+            "chatgpt_says": "Mistakes are a natural part of the learning process. Embrace them as opportunities to grow and improve.",
+            "category": {
+                "id": 10,
+                "name": "Positive Self-Talk"
+            }
+        },
+        {
+            "id": 36,
+            "chatgpt_says": "Drink a glass of water to stay hydrated",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 37,
+            "chatgpt_says": "Clear your workspace or living area of clutter",
+            "category": {
+                "id": 5,
+                "name": "Productivity"
+            }
+        },
+        {
+            "id": 38,
+            "chatgpt_says": "Read a quick article or news update to stay informed",
+            "category": {
+                "id": 11,
+                "name": "Learning"
+            }
+        },
+        {
+            "id": 39,
+            "chatgpt_says": "Take a short walk around your home or outside",
+            "category": {
+                "id": 1,
+                "name": "Health"
+            }
+        },
+        {
+            "id": 40,
+            "chatgpt_says": "Listen to a calming or upbeat song that you enjoy",
+            "category": {
+                "id": 9,
+                "name": "Joy"
+            }
+        },
+        {
+            "id": 41,
+            "chatgpt_says": "Smile at yourself in the mirror, and remind yourself that you're doing great!",
+            "category": {
+                "id": 10,
+                "name": "Positive Self-Talk"
+            }
+        },
+        {
+            "id": 42,
+            "chatgpt_says": "Whenever possible, be kind.",
+            "category": {
+                "id": 42,
+                "name": "Golden Rule"
+            }
+        }
+    ]
+}
