@@ -4,7 +4,7 @@ Practice for the AI uprising by taking orders from ChatGPT!
 
 #### Usage:
 
-**URL: https://dejmedus.github.io**
+**URL: https://bot-says.fly.dev **
 
 | Description                               | API Endpoint                                  |
 | ----------------------------------------- | --------------------------------------------- |
@@ -17,10 +17,10 @@ Practice for the AI uprising by taking orders from ChatGPT!
 
 ```shell
 # basic example
-curl 'https://dejmedus.github.io/bot-says'
+curl 'https://bot-says.fly.dev /bot-says'
 
 # with params
-curl 'https://dejmedus.github.io/bot-says?category=humorous&limit=5'
+curl 'https://bot-says.fly.dev /bot-says?category=humorous&limit=5'
 ```
 
 \* If limit request is higher than the actual amount, will return all orders.
