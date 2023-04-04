@@ -38,7 +38,7 @@
         },
         {
             "id": 10,
-            "name": "Positive Self-Talk"
+            "name": "Affirmations"
         },
         {
             "id": 11,
@@ -331,7 +331,7 @@
             "chatgpt_says": "Repeat after me: I am capable of achieving great things. I am deserving of success and happiness. I trust myself to make the right decisions.",
             "category": {
                 "id": 10,
-                "name": "Positive Self-Talk"
+                "name": "Affirmations"
             }
         },
         {
@@ -339,7 +339,7 @@
             "chatgpt_says": "Mistakes are a natural part of the learning process. Embrace them as opportunities to grow and improve.",
             "category": {
                 "id": 10,
-                "name": "Positive Self-Talk"
+                "name": "Affirmations"
             }
         },
         {
@@ -387,7 +387,7 @@
             "chatgpt_says": "Smile at yourself in the mirror, and remind yourself that you're doing great!",
             "category": {
                 "id": 10,
-                "name": "Positive Self-Talk"
+                "name": "Affirmations"
             }
         },
         {
