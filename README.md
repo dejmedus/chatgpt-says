@@ -25,6 +25,11 @@ curl 'https://dejmedus.github.io/bot-says?category=humorous&limit=5'
 
 \* If limit request is higher than the actual amount, will return all orders.
 
+
+#### Categories:
+
+`health` `wellbeing` `humorous` `ridiculous` `productivity` `mindfulness` `creativity` `gratitude`  `joy`  `affirmations` `learning`  `coding`  `nonsensical` `world-domination` `golden-rule`
+
 #### Example Response:
 
 ```
