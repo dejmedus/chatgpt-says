@@ -1,29 +1,30 @@
 ## ChatGPT Says 🤖👀
 
-Practice for the AI uprising by taking orders from ChatGPT!
+Train for the AI uprising by taking orders from ChatGPT!
 
 #### Usage:
 
-**URL: https://bot-says.fly.dev **
+**URL: https://bot-says.fly.dev**
 
 | Description                               | API Endpoint                                  |
 | ----------------------------------------- | --------------------------------------------- |
 | A random order                            | `/bot-says`                                   |
 | Return order id 8                         | `/bot-says?id=8`                              |
-| 10 random orders                          | `/bot-says?limit=10`                          |
+| 10* random orders                         | `/bot-says?limit=10`                          |
 | Random order from a specific category     | `/bot-says?category=humorous`                 |
 | 5* random orders from a specific category | `/bot-says?category=world-domination&limit=5` |
 | Return all orders                         | `/bot-says?limit=all`                         |
 
+\* If limit request is higher than the actual amount, will return all orders.
+
 ```shell
 # basic example
-curl 'https://bot-says.fly.dev /bot-says'
+curl 'https://bot-says.fly.dev/bot-says'
 
 # with params
-curl 'https://bot-says.fly.dev /bot-says?category=humorous&limit=5'
+curl 'https://bot-says.fly.dev/bot-says?category=humorous&limit=5'
 ```
 
-\* If limit request is higher than the actual amount, will return all orders.
 
 
 #### Categories:
