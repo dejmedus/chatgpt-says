@@ -4,6 +4,9 @@ Train for the AI uprising by taking orders from ChatGPT!
 
 Built for the [MLH API Week](https://ghw.mlh.io/challenges) Create your own API challenge.
 
+#### Built with:
+Python, Flask, Flask-Limiter, ChatGPT, Fly.io
+
 #### Usage:
 
 **URL: https://bot-says.fly.dev**
