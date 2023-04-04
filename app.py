@@ -2,8 +2,16 @@ import json
 import random
 
 from flask import Flask, request, jsonify
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
+
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["50 per day"]
+)
 
 with open('data/bot-says.json') as f:
     data = json.load(f)
@@ -12,12 +20,9 @@ categories = data['categories']
 orders = data['orders']
 
 
-def rand_num():
-    return random.randint(0, len(orders))
-
-
 @app.route("/")
 def index():
+
     greeting = [
         "Welcome to ChatGPT Says!",
         "Train for the the AI uprising by following ChatGPTs orders.",
