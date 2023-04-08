@@ -27,8 +27,8 @@ Python, Flask, Flask-Limiter, ChatGPT (who kindly provided the orders), Fly.io
 # basic example
 curl 'https://bot-says.fly.dev/bot-says'
 
-# with params
-curl 'https://bot-says.fly.dev/bot-says?category=humorous&limit=5'
+# with parameters
+curl 'https://bot-says.fly.dev/bot-says?category=wellbeing&limit=5'
 ```
 
 
