@@ -6,7 +6,7 @@ Built for the [MLH API Week](https://ghw.mlh.io/challenges) Create your own API 
 
 #### Built with:
 
-Python, Flask, Flask-Limiter, ChatGPT (who kindly provided the orders), Fly.io
+Python, Flask, Flask-Limiter, ChatGPT (who kindly provided the orders)
 
 #### Usage:
 
