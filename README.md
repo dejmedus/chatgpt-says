@@ -10,8 +10,6 @@ Python, Flask, Flask-Limiter, ChatGPT (who kindly provided the orders), Fly.io
 
 #### Usage:
 
-**URL: https://bot-says.fly.dev**
-
 | Description                               | API Endpoint                                  |
 | ----------------------------------------- | --------------------------------------------- |
 | A random order                            | `/bot-says`                                   |
@@ -25,10 +23,10 @@ Python, Flask, Flask-Limiter, ChatGPT (who kindly provided the orders), Fly.io
 
 ```shell
 # basic example
-curl 'https://bot-says.fly.dev/bot-says'
+curl 'https://<domain>/bot-says'
 
 # with parameters
-curl 'https://bot-says.fly.dev/bot-says?category=wellbeing&limit=5'
+curl 'https://<domain>/bot-says?category=wellbeing&limit=5'
 ```
 
 
